@@ -1,0 +1,13 @@
+.month-date {
+    float: right;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.cal-event {
+    color: white;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

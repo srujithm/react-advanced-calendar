@@ -1,12 +1,13 @@
 import React from 'react';
+import 'semantic-ui-css/semantic.min.css';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Calendar from './Calendar/Calendar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Calendar view="week"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
